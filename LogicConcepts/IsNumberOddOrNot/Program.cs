@@ -6,7 +6,7 @@ var options = new List<string> { "s", "n" };
 
 do
 {
-    var number = ConsoleExtension.GetInt("Ingrese número entero difrente de 0");
+    var number = ConsoleExtension.GetInt("Ingrese número entero difrente de 0: ");
     if (number == 0)
     {
         continue;

@@ -7,9 +7,9 @@ var options = new List<string> { "s", "n" };
 do
 {
     Console.Write("Ingrese tres números diferentes:");
-    var a = ConsoleExtension.GetInt("Ingrese el primer número");
-    var b = ConsoleExtension.GetInt("Ingrese el segundo número");
-    var c = ConsoleExtension.GetInt("Ingrese el tercer número");
+    var a = ConsoleExtension.GetInt("Ingrese el primer número: ");
+    var b = ConsoleExtension.GetInt("Ingrese el segundo número: ");
+    var c = ConsoleExtension.GetInt("Ingrese el tercer número: ");
 
     if (a > b && a > c) 
     {
